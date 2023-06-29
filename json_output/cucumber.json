@@ -1,0 +1,328 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 18,
+        "name": "Free CRM create a new contact scenario",
+        "description": "",
+        "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12544362700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6810600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_free_crm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124715100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"bhargavrbhayani@gmail.com\" and \"SfeWWQi6jr*F\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bhargavrbhayani@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "SfeWWQi6jr*F",
+                  "offset": 45
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1045338200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1030440800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on home Page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_home_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61562800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on contacts page",
+            "match": {
+              "location": "LoginStepDefinition.click_on_contacts_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 88467100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on new contact button",
+            "match": {
+              "location": "LoginStepDefinition.click_on_new_contact_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 282795200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "add \"Jeff\" and \"Bezoz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jeff",
+                  "offset": 5
+                },
+                {
+                  "val": "Bezoz",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginStepDefinition.add_and(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 73554000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click save button",
+            "match": {
+              "location": "LoginStepDefinition.click_save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 619625900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "browser closes",
+            "match": {
+              "location": "LoginStepDefinition.browser_closes()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Free CRM create a new contact scenario",
+        "description": "",
+        "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11168660800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4719400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_free_crm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111836100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"bhargavrbhayani@gmail.com\" and \"SfeWWQi6jr*F\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bhargavrbhayani@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "SfeWWQi6jr*F",
+                  "offset": 45
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1039020100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1039439800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on home Page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_home_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 49130900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on contacts page",
+            "match": {
+              "location": "LoginStepDefinition.click_on_contacts_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 84683400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on new contact button",
+            "match": {
+              "location": "LoginStepDefinition.click_on_new_contact_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 322358500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "add \"David\" and \"White\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 5
+                },
+                {
+                  "val": "White",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginStepDefinition.add_and(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65480100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click save button",
+            "match": {
+              "location": "LoginStepDefinition.click_save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 612155100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "browser closes",
+            "match": {
+              "location": "LoginStepDefinition.browser_closes()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Create Contacts",
+    "description": "",
+    "id": "free-crm-create-contacts",
+    "keyword": "Feature",
+    "uri": "D:/Work/Project/SeleniumWorkSpace/FreeCrmBDDFramework/src/main/java/Features/contacts.feature"
+  }
+]
