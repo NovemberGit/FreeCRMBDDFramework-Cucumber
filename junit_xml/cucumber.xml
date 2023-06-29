@@ -1,28 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="30.375156">
-    <testcase classname="Free CRM Create Contacts" name="Free CRM create a new contact scenario" time="15.877672">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.567079">
+    <testcase classname="Deal data creation" name="Free CRM create a new contact scenario" time="16.567079">
         <system-out><![CDATA[Given user is already on Login Page.........................................passed
 When title of login page is Free CRM........................................passed
-Then user enters "bhargavrbhayani@gmail.com" and "SfeWWQi6jr*F".............passed
+Then user enters username and password......................................passed
 Then user clicks on login button............................................passed
 Then user is on home Page...................................................passed
-Then click on contacts page.................................................passed
-Then click on new contact button............................................passed
-Then add "Jeff" and "Bezoz".................................................passed
-Then click save button......................................................passed
-Then browser closes.........................................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Free CRM Create Contacts" name="Free CRM create a new contact scenario 2" time="14.497484">
-        <system-out><![CDATA[Given user is already on Login Page.........................................passed
-When title of login page is Free CRM........................................passed
-Then user enters "bhargavrbhayani@gmail.com" and "SfeWWQi6jr*F".............passed
-Then user clicks on login button............................................passed
-Then user is on home Page...................................................passed
-Then click on contacts page.................................................passed
-Then click on new contact button............................................passed
-Then add "David" and "White"................................................passed
-Then click save button......................................................passed
+Then click on deals page....................................................passed
+Then user enters deal details...............................................passed
 Then browser closes.........................................................passed
 ]]></system-out>
     </testcase>
